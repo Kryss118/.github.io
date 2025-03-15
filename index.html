@@ -3,31 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio di Christian Berti</title>
+    <title>[Il Tuo Nome] - Prompt Engineer</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f4; color: #333; }
-        .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 10px; }
-        h1 { color: #007acc; }
-        a { color: #007acc; text-decoration: none; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Helvetica Neue', sans-serif; color: #333; background-color: #f9f9f9; line-height: 1.6; }
+        header { background-color: #007acc; color: white; padding: 40px 0; text-align: center; }
+        header h1 { font-size: 3rem; }
+        header p { font-size: 1.2rem; margin-top: 10px; }
+
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        section { margin-bottom: 60px; }
+        h2 { font-size: 2rem; margin-bottom: 20px; color: #007acc; }
+
+        .about p { font-size: 1.1rem; }
+
+        .projects ul { list-style: none; }
+        .projects li { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); transition: transform 0.3s; }
+        .projects li:hover { transform: translateY(-5px); }
+        .projects h3 { margin-bottom: 10px; }
+        .projects a { color: #007acc; text-decoration: none; }
+
+        .contact p { font-size: 1.1rem; }
+        .contact a { color: #007acc; text-decoration: none; }
+
+        footer { text-align: center; padding: 20px; background: #eee; font-size: 0.9rem; }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+        }
     </style>
 </head>
 <body>
+
+    <header>
+        <h1>[Il Tuo Nome]</h1>
+        <p>Prompt Engineer | AI Specialist</p>
+    </header>
+
     <div class="container">
-        <h1>Ciao, sono Christian</h1>
-        <p>un appassionato di AI e Prompt Engineering. Questo è il mio portfolio.</p>
-        
-        <h2>Chi sono</h2>
-        <p>Scrivi una breve bio qui. Racconta chi sei, cosa ti interessa e perché ti occupi di AI.</p>
-        
-        <h2>Progetti</h2>
-        <ul>
-            <li><strong>Prompt Engineering</strong>: <a href="#">Descrizione o link al progetto</a></li>
-            <li><strong>Automazioni con GPT-4</strong>: <a href="#">Descrizione o link al progetto</a></li>
-        </ul>
-        
-        <h2>Contatti</h2>
-        <p>Email: <a href="mailto:tuoemail@example.com">tuoemail@example.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/christian-berti-66a70236/">linkedin.com/in/tuonome</a></p>
+        <!-- About -->
+        <section class="about">
+            <h2>Chi sono</h2>
+            <p>Sono un Prompt Engineer appassionato di intelligenza artificiale e linguaggi generativi. Progetto prompt ottimizzati per migliorare l’interazione tra uomo e macchina, trasformando idee complesse in soluzioni efficaci.</p>
+            <p>Lavoro per aziende e startup che vogliono integrare l’AI nei loro processi, sviluppando sistemi automatizzati, chatbot intelligenti e contenuti di alta qualità.</p>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects">
+            <h2>Progetti</h2>
+            <ul>
+                <li>
+                    <h3>Prompt Library</h3>
+                    <p>Una collezione di prompt ingegnerizzati per diversi casi d’uso: customer support, content generation, analisi dati.</p>
+                    <a href="#">Vai al progetto →</a>
+                </li>
+                <li>
+                    <h3>Automazione report AI</h3>
+                    <p>Un sistema che genera report automatici da file Excel e PDF tramite GPT-4 e Python.</p>
+                    <a href="#">Scopri di più →</a>
+                </li>
+                <li>
+                    <h3>Chatbot personalizzato</h3>
+                    <p>Un assistente virtuale addestrato con documentazione aziendale, sviluppato con LangChain e OpenAI API.</p>
+                    <a href="#">Guarda il progetto →</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact">
+            <h2>Contatti</h2>
+            <p>Email: <a href="mailto:tuoemail@example.com">tuoemail@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/christian-berti-66a70236/" target="_blank">linkedin.com/in/tuonome</a></p>
+            <p>GitHub: <a href="https://github.com/tuonome" target="_blank">github.com/tuonome</a></p>
+        </section>
     </div>
+
+    <footer>
+        &copy; 2025 [Il Tuo Nome] - Tutti i diritti riservati
+    </footer>
+
 </body>
 </html>
